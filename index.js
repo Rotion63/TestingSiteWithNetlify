@@ -89,6 +89,7 @@ fetch('/.netlify/functions/get-blog-names')
   .then(response => response.json())
   .then(data => {
     const fileNames = data.fileNames;
+  console.log(filenames);//this is changed code.
     for (const fileName of fileNames) {
       const blog = fileName.replace('.html', '');
       blogs.push({ name: blog });
