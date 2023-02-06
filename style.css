@@ -1,0 +1,42 @@
+      /* CSS styles */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: lightgray;
+      }
+      .header-tabs {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .header-tab {
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      .header-tab:not(:last-child) {
+        margin-right: 10px;
+      }
+      .header-tab.active {
+        background-color: gray;
+        color: white;
+      }
+      .content {
+        display: flex;
+        height: calc(100vh - 80px);
+        padding: 20px;
+      }
+    .blog-contents, .blog-headings {
+        width: 33.33%;
+        overflow-y: auto;
+      }
+      .blog-name {
+        display: list-item;
+        width: 33.33%;
+        overflow-y: auto;
+      }
+      .blog-contents {
+        padding: 0 20px;
+      }

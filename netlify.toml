@@ -1,0 +1,3 @@
+[[functions]]
+  source = "functions"
+  handler = "get-blog-names.handler"
